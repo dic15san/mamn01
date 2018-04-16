@@ -7,7 +7,7 @@
     tools:context="se.example.stinaandreason.helloapp.CompassActivity">
 
     <TextView
-        android:layout_width="match_parent"
+         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
@@ -18,10 +18,16 @@
         android:id="@+id/txt_azimuth"/>
 
     <ImageView
+        android:id="@+id/img_compass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/compass"
         android:layout_below="@+id/txt_azimuth"
-        android:id="@+id/img_compass"/>
+        android:layout_marginBottom="160dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/kompass2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_azimuth" />
 
 </android.support.constraint.ConstraintLayout>

@@ -44,7 +44,7 @@
         android:layout_marginEnd="179dp"
         android:layout_marginStart="47dp"
         android:layout_marginTop="24dp"
-        android:text="Choose sensro(s) to test:"
+        android:text="Choose sensor(s) to test:"
         app:layout_constraintBottom_toTopOf="@+id/compass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
